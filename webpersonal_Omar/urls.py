@@ -25,7 +25,7 @@ urlpatterns = [
     path('about-me/', core_views.about, name="about"),
     path('portfolio/', portfolio_views.portfolio, name="portfolio"),
     path('contact/', core_views.contact, name="contact"),
-    path('admin/', admin.site.urls),
+    path('opensesame/', admin.site.urls),
 ]
 
 if settings.DEBUG:

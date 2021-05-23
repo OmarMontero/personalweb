@@ -1,3 +1,15 @@
 {
     "python.pythonPath": "/home/omar/venvs/personalweb/bin/python"
 }
+
+{
+    "python.pythonPath": "C:\\ruta\\al\\entorno\\python.exe",
+    "python.linting.enabled": true,  
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,      
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--disable=django-not-configured,missing-module-docstring,missing-class-docstring"
+    ]
+}
