@@ -1,3 +1,3 @@
-# personalweb
+# PERSONALWEB
 
-First web project. Using django bases and hierarchical templates.
+First web project. Using django bases and templates.
